@@ -1,10 +1,7 @@
 {
     "routes": [
-      { "src": "/", "dest": "/home/index.html" },
-      { "src": "/home/home.css", "dest": "/home/home.css" },
-      { "src": "/home/script.js", "dest": "/home/script.js" },
-      { "src": "/login", "dest": "/login/login.html" },
-      { "src": "/signup", "dest": "/signup/signup.html" }
+      { "src": "/"}
+     
     ]
   }
   
