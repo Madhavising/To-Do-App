@@ -2,7 +2,7 @@
 let token = JSON.parse(localStorage.getItem("token"));
 
 if (token === null) {
-  window.location.href = "/Frontend/login/login.html";
+  window.location.href = "../login/login.html";
 }
 
 function Logout() {
