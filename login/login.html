@@ -24,7 +24,7 @@
         </button>
         <p class="signup-link">
           Don't have an account?
-          <a href="/frontend/signup/signup.html">Sign up here</a>
+          <a href="../signup/signup.html">Sign up here</a>
         </p>
       </form>
     </div>
@@ -65,7 +65,7 @@
           localStorage.setItem("user", JSON.stringify(res.data));
           localStorage.setItem("userId", JSON.stringify(res.data._id));
           alert("Login Successfully");
-          window.location.href = "/frontend/home/index.html";
+          window.location.href = "../home/index.html";
         } else {
           alert("Invalid email or password");
         }
